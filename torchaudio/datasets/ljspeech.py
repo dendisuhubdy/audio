@@ -84,7 +84,7 @@ class LJSpeech(data.Dataset):
     raw_folder = 'ljspeech/raw'
     processed_folder = 'ljspeech/processed'
     url = 'http://data.keithito.com/data/speech/LJSpeech-1.1.tar.bz2'
-    dset_path = 'VCTK-Corpus'
+    dset_path = 'LJSpeech-1.1'
 
     def __init__(self, root, downsample=True, transform=None, target_transform=None, download=False, dev_mode=False):
         self.root = os.path.expanduser(root)
